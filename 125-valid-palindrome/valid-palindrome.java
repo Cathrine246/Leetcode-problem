@@ -5,7 +5,7 @@ class Solution {
 
         String str = "";
 
-        // Remove spaces and special characters
+        
         for (int i = 0; i < s.length(); i++) {
 
             char ch = s.charAt(i);
@@ -15,7 +15,7 @@ class Solution {
             }
         }
 
-        // Two pointers
+      
         int left = 0;
         int right = str.length() - 1;
 
